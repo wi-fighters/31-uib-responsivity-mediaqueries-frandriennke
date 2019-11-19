@@ -1,7 +1,36 @@
 body {
     height: 100vh;
-    border: 10px solid black;
+    border: 10px solid red;
 }
+
+@media (min-width:376px) {
+    body {
+        height: 100vh;
+        border: 10px solid blue;
+    }
+}
+
+@media (min-width:426px) {
+    body {
+        height: 100vh;
+        border: 10px solid green;
+    }
+}
+
+@media (min-width:769px) {
+    body {
+        height: 100vh;
+        border: 10px solid yellow;
+    }
+}
+
+@media (min-width:1025px) {
+    body {
+        height: 100vh;
+        border: 10px solid hotpink;
+    }
+}
+
 
 main {
     margin: 15px;
